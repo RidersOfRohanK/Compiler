@@ -1,0 +1,8 @@
+1) A Hashmap would be better in this situation because we don't care as much about keeping
+all the entries sorted, we care more about making sure that there are faster lookups. A
+TreeMap would be better if we wanted things in sorted order or if we needed more memory
+
+2) I used an ArrayList because we care more about storing things than we do manipulating
+them. There is no removeDecl which means we are not taking things out of the list. For the
+most part all we are doing is adding things or iterating over them. For these tasks a
+LinkedList is better.
