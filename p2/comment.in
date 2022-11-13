@@ -1,0 +1,3 @@
+//*This is a comment that should be ignored
+% this should also be ignored
+//*% this should seriously be ignored

@@ -1,0 +1,6 @@
+1:1 ****ERROR**** ignoring unterminated string literal
+2:1 ****ERROR**** ignoring unterminated string literal
+3:1 ****ERROR**** ignoring string literal with bad escaped character
+4:1 ****ERROR**** ignoring string literal with bad escaped character
+5:1 ****ERROR**** ignoring unterminated string literal with bad escaped character
+6:1 ****WARNING**** integer literal too large
