@@ -1,0 +1,87 @@
+int x;
+int y;
+bool b;
+void c;
+struct s {
+    int a;
+    bool b;
+    void c;
+};
+void func() {
+    int a;
+    bool b;
+    void c;
+    struct s d;
+    struct d s;
+}
+int func2(int p) {
+    int x;
+    int y;
+    int z;
+    z = p;
+    y = -1;
+    if(x == (77)) {
+       z= x+(-y);
+    }
+    else {
+        z = 0;
+    }
+    return z;
+}
+int func3(){
+    int a;
+    int b;
+    a = 42;
+     b = 0;
+    if(((a)== (42))){
+        b=10;
+    }
+    else{
+        b=7;
+    }
+    return (a*b);
+}
+int func4(bool a, bool b){
+    int c;
+     c= 1;
+     a = b;
+     d = !true;
+     a = (!a);
+     a = (a || false);
+     a = (a != false);
+     c = (c + 7 * 12);
+     c = (c * c);
+     c = (c - 6);
+     c = (c / 3);
+     c++;
+     c--;
+     a=a>b;
+     a=a<b;
+     a=a<=b;
+     a=a>=b;
+     b=a==b;
+     b=a!=b;
+     a=a||b;
+     b=a&&b;
+     return 0;
+}
+void func5(int i){
+    read(5);
+    print(76);
+    while(i<5){
+        i++;
+    }
+    c = a.b;
+      result = c && c;
+      result = c || c || c;
+    
+      b = b&&b&&b;
+      b = (b>5)||(b<7);
+      b=-b;
+
+      return func2();
+}
+
+int func6(){
+   func5(a,b,c,d);
+}
