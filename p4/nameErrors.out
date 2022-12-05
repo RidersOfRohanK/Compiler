@@ -1,0 +1,22 @@
+11:9 ****ERROR**** Identifier multiply-declared
+16:7 ****ERROR**** Identifier multiply-declared
+17:8 ****ERROR**** Identifier multiply-declared
+18:8 ****ERROR**** Non-function declared void
+22:5 ****ERROR**** Identifier multiply-declared
+23:6 ****ERROR**** Identifier multiply-declared
+28:19 ****ERROR**** Identifier multiply-declared
+32:8 ****ERROR**** Identifier multiply-declared
+37:7 ****ERROR**** Identifier multiply-declared
+39:7 ****ERROR**** Identifier multiply-declared
+47:6 ****ERROR**** Non-function declared void
+48:6 ****ERROR**** Non-function declared void
+50:10 ****ERROR**** Non-function declared void
+54:31 ****ERROR**** Identifier multiply-declared
+57:8 ****ERROR**** Name of struct type invalid
+61:12 ****ERROR**** Name of struct type invalid
+66:12 ****ERROR**** Name of struct type invalid
+72:1 ****ERROR**** Identifier undeclared
+73:1 ****ERROR**** Identifier undeclared
+76:1 ****ERROR**** Identifier undeclared
+79:1 ****ERROR**** Identifier undeclared
+91:1 ****ERROR**** Identifier undeclared

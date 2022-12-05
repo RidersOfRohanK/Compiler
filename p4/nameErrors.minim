@@ -1,0 +1,93 @@
+
+int a;
+struct test_struct {
+  int size;
+};
+void func() {}
+
+
+void a1(){
+    int b;
+    int b;
+}
+
+struct h {
+  int h;
+  int h;
+  bool h;
+  void h;  
+};
+
+int n;
+int n;
+bool n;
+
+struct b {
+  int b;
+};
+int e1(int a, int a) {} 
+
+struct o {
+  int o;
+  bool o;
+};
+
+int p1() {
+  int p;
+  int p;
+  int a;
+  int a;
+}
+
+int r5() {}
+int r5() {}
+int r5() {}
+int r5() {}
+
+void k; 
+void z;
+void b3(){
+    void ni;
+    return;
+}
+
+void pop(int w1, bool w, bool w1){}
+
+
+struct turbo D;
+
+
+void dunc(){
+    struct Rect rekt;
+    return;
+}
+
+struct HP{
+    struct pp powerpoints;
+    int healthpoints;
+};
+
+
+void b900(){
+y6 = 7;
+uu = false;
+
+
+undeclared();
+
+
+attackPower.power  = 20;
+}
+
+
+void test(){
+int a;
+bool b;
+
+a.val = 5;
+b.value = false; 
+
+a.b.value = 6;
+test.a = 8;
+}
+
