@@ -1,0 +1,33 @@
+struct AreaOfRect {
+  int l;
+  int w;
+};
+int ffs(int x, bool b) {}
+
+void o1() {
+  int l1;
+  struct AreaOfRect area;
+}
+int greaterThan2000(int num){
+    if(num > 2000){
+        return num;
+    }
+}
+int func1(int thing1, int thing2, bool thing3){
+    int result;
+    result = thing1+thing2;
+    if(thing3){
+        result = result * 5;
+    }
+    else{
+        result = result * 10;
+    }
+
+    thing3 = thing1 == thing2;
+    thing2--;
+
+    result = 1000/thing2;
+     thing2 = result*thing1;
+
+     return result;
+}

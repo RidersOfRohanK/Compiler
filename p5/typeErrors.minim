@@ -1,0 +1,253 @@
+
+
+int i;
+bool b;
+struct S{int a;int b;};
+struct S s;
+
+int f(){}
+bool f2(int x,int y){}
+int f3(int z){}
+void f4(bool b){}
+bool f5(bool b, int i){}
+void f6(int i,bool b){}
+
+void f23(){
+
+f(i);
+f2(i,i,i,i,i,i);
+f3(i,i);
+
+f4(i);
+f2(b,b);
+f5(i,b);
+f6(b,i);
+}
+int f7(){return false;}
+bool f8(){return 8;}
+
+int f9(){return;}
+bool f10(){return;}
+
+void f11(){return 11;}
+void f12(){return true;}
+
+void f13(){return i+b;}
+void f14(){return b&&i;}
+void f15(){return s();}
+
+void f16(){
+    i=i+b;
+    i=i-b;
+    i=i*b;
+    i=i/b;
+    i=b/i;
+    i=b*i;
+    i=b+i;
+    i=b-i;
+
+    b++;
+    b--;
+
+    i=i+s;
+    i=i-s;
+    i=i*s;
+    i=i/s;
+    i=s/i;
+    i=s*i;
+    i=s+i;
+    i=s-i;
+
+    s++;
+    s--;
+
+    i=i+f;
+    i=i-f;
+    i=i*f;
+    i=i/f;
+    i=f/i;
+    i=f*i;
+    i=f+i;
+    i=f-i;
+
+    f++;
+    f--;
+
+    i=i+S;
+    i=i-S;
+    i=i*S;
+    i=i/S;
+    i=S/i;
+    i=S*i;
+    i=S+i;
+    i=S-i;
+
+    S++;
+    S--;
+}
+
+void f17(){
+    b=!i;
+    b=!s;
+    b=!f;
+    b=!S;
+
+    b = b>i;
+    b = i>b;
+    b = b<i;
+    b = i<b;
+    b = b>=i;
+    b = i>=b;
+    b = b<=i;
+    b = i<=b;
+
+    b = b>s;
+    b = s>b;
+    b = b<s;
+    b = s<b;
+    b = b>=s;
+    b = s>=b;
+    b = b<=s;
+    b = s<=b;
+
+    b = b>S;
+    b = S>b;
+    b = b<S;
+    b = S<b;
+    b = b>=S;
+    b = S>=b;
+    b = b<=S;
+    b = S<=b;
+
+    b = b>f;
+    b = f>b;
+    b = b<f;
+    b = f<b;
+    b = b>=f;
+    b = f>=b;
+    b = b<=f;
+    b = f<=b;
+
+    b=i&&b;
+    b=i||b;
+    b=b&&i;
+    b=b||i;
+
+    b=s&&b;
+    b=s||b;
+    b=b&&s;
+    b=b||s;
+
+    b=S&&b;
+    b=S||b;
+    b=b&&S;
+    b=b||S;
+
+    b=f&&b;
+    b=f||b;
+    b=b&&f;
+    b=b||f;
+
+}
+
+void f18(){
+
+
+    i = b;
+    b = i;
+
+    b = b == i;
+    b = i == b;
+    i = ((b == i) == b);
+
+
+
+	f = b;
+    b = f;
+
+    b = b == f;
+    b = f == b;
+    f = ((b == f) == b);
+
+
+
+    s = b;
+    b = s;
+
+    b = b == s;
+    b = s == b;
+    s = ((b == s) == b);
+
+    S = b;
+    b = S;
+
+    b = b == S;
+    b = S == b;
+    S = ((b == S) == b);
+}
+
+void f19(){
+    while(i) { i = i; }
+    while(S) { i = i; }
+    while(s) { i = i; }
+    while(f) { i = i; }
+    while(i+i){i = i; }
+}
+void f20(){
+    if(i){i=i;}
+    if(f){i=i;}
+    if(s){i=i;}
+    if(S){i=i;}
+
+    if(i){i=i;}else{b=b;}
+    if(f){i=i;}else{b=b;}
+    if(s){i=i;}else{b=b;}
+    if(S){i=i;}else{b=b;}
+
+}
+
+void f21(){
+    int ii;
+    bool bb;
+    ii = f + f;
+    bb = f == 3;
+    
+    bb = f == f;
+}
+void f22(){
+   i();
+   b();
+   s();
+   S();
+}
+void f24(){
+   input >> S;
+   input >> s;
+   input >> f;
+   disp << S;
+   disp << s;
+   disp << f;
+}
+
+void main(){
+    f7();
+    f8();
+    f9();
+    f10();
+    f11();
+    f12();
+    f13();
+    f14();
+    f15();
+    f16();
+    f17();
+    f18();
+    f19();
+    f20();
+    f21();
+    f22();
+    f23();
+    f24();
+
+
+}
